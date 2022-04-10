@@ -24,11 +24,12 @@ employee::employee(int id ,string name ,int did)
 }
 void employee::showinfo()
 {
-    cout<<"worker numumber:  "<<this->m_id<<endl<<"worker's name:   "<<this->m_name
-    <<endl<<"depart:  "<<this->getdepartname()<<endl<<"what to do"<<endl;
-
+   cout << "职工编号： " << this->m_id
+		<< " \t职工姓名:" << this->m_name
+		<< " \t岗:" << this->getdepartname()
+		<< " \t岗位职责:干活" << endl;
 }
 string employee::getdepartname()
 {
-    return string("worker");
+    return  string ("worker");
 }

@@ -27,5 +27,5 @@ void manager::showinfo()
 }
 string manager::getdepartname()
 {
-return ("manager");
+return  string("manager");
 }
