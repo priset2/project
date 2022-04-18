@@ -1,5 +1,19 @@
 {
     "files.associations": {
         "iostream": "cpp"
-    }
+    },
+   "code-runner.runInTerminal": true,
+   "code-runner.saveAllFilesBeforeRun": false,
+   
+    "debug.allowBreakpointsEverywhere": true,
+   // "C_Cpp.intelliSenseEngine": "Disabled" 
+   "editor.minimap.enabled": true,
+   "C_Cpp.autocomplete": "Default",
+   "[cpp]": {
+       "editor.quickSuggestions": true
+   },
+   "[c]": {
+       "editor.quickSuggestions": true
+   }
+
 }
